@@ -7,23 +7,12 @@
   .hero-section{
      background-image: url('./images/media.avif');  
      height: 100vh;
-    
     background-position: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-   
     color: white; 
    
-  }
-
-
-  
-  .flex{
-    display: flex;
-    flex-direction: column;
-
-    justify-content: space-between;
   }
   .lg-text{
     font-size: 64px;
@@ -109,32 +98,7 @@
     font-weight: 400px;
   }
   
-  .last{
-   display: grid;
-   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-   grid-template-rows: repeat(auto-fit,minmax(250px,1fr));
-  }
-  
-  .first{
-    padding: 20px;
-  }
-  .first h2{
-  margin-bottom: 20px;
-  }
-  #contact{
-  background-color: darkgreen;
-  padding: 20px;
-  }
-  #about{
-    background-color: darkred
-  }
-  
-  footer{
-    padding:20px;
-    background-color: #333;
-    color:#fff;
-  
-  text-align:center;}
+
 
   @media screen and (max-width:576px){
     .hero-section{
